@@ -7,13 +7,6 @@ This project performs concurrent classification of tumour status from co-recorde
 - Algorithms used: Contextual bandit (SGD regressors), k-nearest-neighbour local evidence, and fixed weighted score fusion.
 - Evaluation: Repeated stratified cross-validation with 5 folds and 10 repeats. Patient-level aggregated scores are evaluated with ROC-AUC, PR-AUC, F1-score, MCC, and other metrics, and the script saves the tables and figures reported in the paper.
 
-## Usage
-
-```bash
-pip install -r requirements.txt
-python nf1_tumour_status_classification.py
-```
-
 ## Citation
 
 Arman Ahangari Kiasari and Ali Ghasemi Sahebi, "Concurrent Tumour-Status Classification in Neurofibromatosis Type 1 Using Contextual Bandit and Local Phenotype Evidence," 12th International Conference on Signal Processing and Intelligent Systems (ICSPIS), IEEE, 2026.
